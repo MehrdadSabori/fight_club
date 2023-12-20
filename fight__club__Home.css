@@ -259,12 +259,15 @@ ul,
 #partner {
     width: 100%;
     margin: 4rem 0 0 0;
+    position: relative;
 }
 
 .rectangel_text {
-    align-self: baseline;
-    width: 15rem;
-    margin: -12rem 0 0 -16rem;
+    width: 20%;
+    min-width: 8rem;
+    position: absolute;
+    top: -1rem;
+    left: 3rem;
     font-weight: normal;
     font-style: italic;
     font-size: 1.5rem;
@@ -789,10 +792,7 @@ ul,
     .fight__club {
         font-size: 6rem;
     }
-    .rectangel_text{
-        margin: -12rem 0 0 -9rem;
-        flex-basis: 8rem;
-    }
+    
     #h1{
         font-size: 2rem;
     }
@@ -886,6 +886,9 @@ ul,
     .image_partner {
         width: 5rem;
     }
+    .rectangel_text{
+        left: 0;
+    }
     .rectangel_text, #h1, #class_Name, #h1_name {
         font-size: 1rem;
     }
@@ -974,10 +977,7 @@ ul,
     .fight__club{
         font-size: 3rem;
     }
-    .rectangel_text {
-        margin: -12rem 0 0 -3rem;
-        flex-basis: 5rem;
-    }
+   
     .rectangel_with {
         width: 9rem;
         height: 11rem;
@@ -1042,9 +1042,6 @@ ul,
     }
     .rectangle{
         flex-wrap: wrap;
-    }
-    .rectangel_text{
-        margin: -3rem 9rem 0.4rem 0;
     }
     .image_partner{
         width: 3.5rem;
