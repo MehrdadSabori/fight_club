@@ -10,7 +10,7 @@ body {
 .div__body {
     width: 100%;
     height: auto;
-    background: url(/picture/fighter__men.jpg);
+    background: url(./picture/fighter__men.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: scroll;
