@@ -1,0 +1,1106 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    background-color: #2F2F2F;
+}
+
+.div__body {
+    width: 100%;
+    height: auto;
+    background: url(/picture/fighter__men.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+i {
+    cursor: pointer;
+}
+
+/* ---------------header--------------- */
+
+.conteiner {
+    max-width: 85rem;
+    margin: 0% 7%;
+
+}
+
+/* .menu bar */
+.logo__fight_club {
+    max-width: 7rem;
+    max-height: 7rem;
+    opacity: 0.7;
+}
+
+.menu-bar,
+ul,
+.menu-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-bar {
+    padding: .5rem 0 0 0;
+}
+
+.menu-bar>.menu-logo>ul>li {
+    margin-right: 1rem;
+    list-style: none;
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+/* phone number */
+.phone-number {
+    display: flex;
+    align-items: flex-end;
+    margin: .5rem .5rem 0 0;
+    cursor: pointer;
+}
+
+.fa-phone {
+    margin-right: 0.8rem;
+    font-size: 1rem;
+    color: #e6e6e9;
+}
+
+.phone-number>p {
+    margin: 0rem;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #e6e6e9;
+}
+
+/* search */
+.search-conteiner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 27rem;
+    height: 2.5rem;
+    border-radius: 1.9rem;
+    background: transparent;
+    border: 2px solid #707070;
+    backdrop-filter: blur(45px);
+    --webkit-backdrop-filter: blur(45px);
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.fa-search {
+    font-size: x-large;
+    padding-right: 1rem;
+    color: #e6e6e9;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 85%;
+    height: 100%;
+    margin: 0 0 0 1.3rem;
+    padding-left: 1rem;
+    font-weight: normal;
+    font-size: 1.2rem;
+    letter-spacing: -0.01em;
+    line-height: 61px;
+    text-align: left;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: #e6e6e9;
+
+}
+
+.search-input::placeholder {
+    font-style: italic;
+}
+
+.phone-search__conteinre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* fight_logo_tex */
+
+.fight__muhammad__conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fight__club {
+    margin: 4rem 0 0 0;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 9rem;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: rgb(106, 4, 15);
+    opacity: 0.2;
+    user-select: none;
+
+}
+
+/* muhammad ALi */
+
+.muhammadAli_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.with__circle {
+    margin: -21rem 1.1rem 0 0;
+    width: 27rem;
+    height: 27rem;
+    background: linear-gradient(rgba(5, 6, 33, -35.01) 68%, #f5f3f4 249%);
+    opacity: 1.2;
+    border-radius: 50%;
+
+}
+
+.waled {
+    width: 36rem;
+}
+
+.Even {
+    width: 37rem;
+    margin: 8rem -1.2rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #e6e6e9;
+
+}
+
+.mu_ali {
+    margin: 1rem 0;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+    color: #e6e6e9;
+
+}
+
+/* start now button => btn class  */
+
+
+
+
+/* ---------------------main------------------ ↓↓↓ */
+
+/* classes */
+.classes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 39rem;
+    height: auto;
+    border-radius: 6rem;
+    background: transparent;
+    opacity: 0.80;
+    backdrop-filter: blur(50px);
+    --webkit-backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.07);
+
+}
+
+.style_classes>i {
+    margin: 0 .8rem;
+}
+
+.style_classes :not(i) {
+    text-decoration: underline;
+    justify-self: center;
+
+}
+
+.style_classes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #e6e6e9;
+    cursor: pointer;
+
+}
+
+#icon_calendar_right {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #ffd6ba;
+
+}
+
+/* ---- partner ↓↓↓ -----*/
+
+#partner {
+    width: 100%;
+    margin: 4rem 0 0 0;
+}
+
+.rectangel_text {
+    align-self: baseline;
+    width: 15rem;
+    margin: -12rem 0 0 -16rem;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.5rem;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #2f2f2f;
+    background: #e6e6e9;
+    border-radius: 1.4rem;
+
+}
+.rectangel_text>p{
+    margin: 0;
+
+}
+
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 1rem;
+    background: transparent;
+    border: 1px solid #707070;
+    backdrop-filter: blur(6px);
+    --webkit-backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.14);
+
+}
+
+.image_partner {
+    width: 10rem;
+    opacity: 0.7;
+
+}
+
+/* --- type of classes profile --- ↓↓↓  */
+
+.type_of_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 2rem 0;
+    border-radius: .8rem;
+    background: linear-gradient(#6a040f -50%, rgba(123, 122, 122, 0) 100%);
+    opacity: 1;
+
+
+}
+
+#h1 {
+    margin: 1rem 0;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: left;
+    color: #f5f3f4;
+
+}
+
+#h2 {
+    margin: 0 0 2rem ;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f5f3f4;
+
+}
+
+.profile_classes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.rectangel_with {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 18.3rem;
+    height: 30rem;
+    margin: 1rem 0 0 0;
+    border-radius: 1.3rem;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    --webkit-backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 0.34);
+
+}
+
+#icon_share_right_type_of {
+    margin: 0 1rem 0 0;
+    align-self: flex-end;
+    font-size: 2rem;
+    ;
+    color: #000;
+
+}
+
+.image_classes {
+    margin: -2rem 2rem 0 0;
+    width: 13.59375rem;
+    height: 10.715625rem;
+    border-radius: 0.6875rem;
+
+}
+
+#class_Name {
+    align-self: flex-start;
+    margin: 1rem 0 0.2rem 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #f5f3f4;
+
+}
+
+#class_text {
+
+    margin: 0 .5rem;
+    font-weight: normal;
+    font-size: 1.375rem;
+    text-align: left;
+    color: #2f2f2f;
+    overflow: hidden;
+
+}
+
+/* ----- facilities --- ↓↓↓  */
+.facilities {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#facilities_rectangel {
+    display: flex;
+    width: 68rem;
+    height: 40rem;
+    border-radius: 1rem 9rem 10rem 31rem;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    --webkit-backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 2.5em 2.5em 4.625em -3.8125em #D81D1D;
+
+}
+
+#facilities_rectangel :not(#text_facilities_cont, p, button) {
+    overflow: hidden;
+}
+
+#text_facilities_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#facilities_h1 {
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #f5f3f4;
+
+}
+
+#our_club_text {
+    margin: 1rem 0 1rem 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: -0.01em;
+    color: #f5f3f4;
+    opacity: 0.67;
+
+}
+
+.btn {
+    margin: 1rem 0 2rem 0;
+    align-self: flex-end;
+    width: 10rem;
+    height: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    letter-spacing: -0.5px;
+    border-radius: 0.5rem;
+    color: #2f2f2f;
+    background: #ffd6ba;
+    border: 1px solid #f5f3f4;
+    transition: ease;
+    cursor: pointer;
+}
+
+#img_boxing_last {
+    width: 31.875rem;
+    height: 21.125rem;
+    border-radius: 11.375rem 0.5625rem 9.375rem 1.125rem;
+
+}
+
+#img_jopen_cont {
+    border-radius: 0 0 10rem 0;
+
+}
+
+#jopen {
+    width: 29.5625rem;
+    height: 41.8125rem;
+    box-sizing: border-box;
+    padding: 0 0 1rem 1rem;
+    margin: 0 16.4rem 0 0rem;
+}
+
+/* ------ coach ---- ↓↓↓  */
+
+#coach_imgBackg_conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+#coach_profile {
+    display: flex;
+
+}
+
+#prof {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+
+#coach_text {
+    width: 2.5rem;
+    margin: 0 0.8rem 0 0;
+    font-weight: normal;
+    font-size: 3rem;
+    letter-spacing: 0.25em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(230, 230, 233, 0.29);
+}
+
+#profile_rectangel {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5%;
+    background: transparent;
+    border: 3px solid #e6e6e9;
+    backdrop-filter: blur(0px);
+    --webkit-backdrop-filter: blur(0px);
+    background-color: rgba(255, 255, 255, 0.03);
+
+}
+
+#img_circle {
+    align-self: center;
+    width: 11rem;
+    height: 11rem;
+    margin: -6rem 2rem 2rem 0;
+    border: 3px solid #e6e6e9;
+    border-radius: 50%;
+   
+    /*-- hover:zoom* --importand */
+    overflow: hidden;  
+    
+}
+
+.img_Mr_sporer img{
+    width: 11rem;
+    height: auto;
+    transform-origin: 46% -3%;
+    transition: transform .25s, visibility .25s ease-in;
+    
+}
+
+.img_Mrs_Batz img{
+    width: 18rem;
+    height: auto;
+    margin: 0 -4.4rem;
+    transform-origin: 63% 6%;
+    transition: transform .25s, visibility .25s ease-in;
+    
+}
+
+.img_Mr_Thompson img{
+    width: 11rem;
+    height: auto;
+    transform-origin: 59% 12%;
+    transition: transform .25s, visibility .25s ease-in;
+    
+}
+
+
+
+#icon_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    height: 7rem;
+    margin: -6rem 0.3rem 0 0;
+    font-size: 2rem;
+}
+
+#h1_name {
+    width: 7rem;
+    margin: -2rem 0 0.3rem 1rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #f5f3f4;
+}
+
+#text_prof {
+    margin: 0 0 0.2rem 0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: -0.05em;
+    line-height: 18px;
+    text-align: left;
+    color: #e6e6e9;
+    opacity: 0.79;
+}
+
+#icon_more {
+    width: 2.5rem;
+    align-self: flex-end;
+    margin: 0 .3rem 0 0;
+    cursor: pointer;
+}
+
+#img_vector_prof {
+    width: 36rem;
+    height: 36rem;
+    background: url(/picture/pngwing.com\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.17;
+
+}
+
+/* --- footer --- ↓↓↓ */
+.footer_email-subscribe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#email_cont {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 30rem;
+}
+
+#subscribe {
+    align-self: flex-start;
+    margin: 0 0 0 2rem;
+    font-weight: 300;
+    font-size: 27px;
+    color: #e6e6e9;
+
+}
+
+#input_cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 28rem;
+    height: 3.5rem;
+    border-radius: 2rem;
+    background: transparent;
+    border: 1px solid #e6e6e9;
+    backdrop-filter: blur(44px);
+    --webkit-backdrop-filter: blur(44px);
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+#input_cont> input {
+    border: none;
+    outline: none;
+    width: 22rem;
+    font-size: 1.3rem;
+    background: transparent;
+    margin-left: 1rem;
+}
+
+#input_cont> input::placeholder {
+    font-style: italic;
+    
+}
+#input_cont> i {
+    font-size: 2rem;
+
+}
+
+/* --- web designer --- ↓↓↓  */
+#web_designer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: transparent;
+    border-top: 1px solid #707070;
+
+}
+#web_designer>p{
+    font-size: 1rem;
+    color: #E6E6E9;
+    opacity: 50%;
+    margin: 1rem 2rem 2rem 2rem;
+}
+
+/*  --- hover ---  ↓↓↓  */
+
+.menu-logo>ul>li:hover {
+    color: #f1f1f1;
+}
+
+.btn:hover{
+    background:#ffd6bade ;
+}
+#input_cont>i:hover{
+    color:#6a040f;
+}
+#icon_cont>i:hover{
+    color: #6a040f;
+}
+#icon_share_right_type_of>i:hover{
+    color: #6a040f;
+    
+}
+#icon_calendar_right:hover{
+    color: #ffd6babe;
+}
+
+#img_circle:hover img{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+/* --- responsive ---  */
+@media only screen and (max-width: 1400px ){
+    .phone-search__conteinre{
+        flex-basis: 15rem;
+    }
+    .menu-bar>.menu-logo>ul>li{
+        font-size: 1.2rem;
+    }
+    .logo__fight_club{
+        max-width: 6rem;
+    }
+    .fight__club{
+        font-size: 8rem;
+    }
+    .Even{
+        width: 28rem;
+        font-size: 1.5rem;
+    }
+    .with__circle{
+        margin: -19rem 1.1rem 0 0;
+        width: 24rem;
+        height: 24rem;
+    }
+    .classes{
+        width: 30rem;
+    }
+    .style_classes{
+        font-size: 2rem;
+    }
+    .image_partner{
+        width: 8rem;
+    }
+    .rectangel_with{
+        width: 14rem;
+        height: 20rem;
+    }
+    .image_classes{
+        width: 10rem;
+        height: 7rem;
+    }
+    #facilities_rectangel{
+        width: 60rem;
+    }
+    #text_facilities_cont{
+        flex-basis: min-content;
+    }
+    #facilities_h1{
+        font-size: 2rem;
+    }
+    #our_club_text{
+        font-size: 1.7rem;
+    }
+    #img_vector_prof{
+        height: 24rem;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .phone-search__conteinre{
+        flex-basis: 13rem;
+    }
+    .menu-bar>.menu-logo>ul>li{
+        font-size: 1rem;
+    }
+    .fight__club {
+        font-size: 6rem;
+    }
+    .rectangel_text{
+        margin: -12rem 0 0 -9rem;
+        flex-basis: 8rem;
+    }
+    #h1{
+        font-size: 2rem;
+    }
+    #h2{
+        font-size: 1rem;
+    }
+    .rectangel_with{
+        flex-basis: 1rem ;
+        height: 15.4rem ;
+    }
+    .image_classes{
+        margin: -2rem 1rem 0 1rem;
+    }
+    #facilities_rectangel{
+        width: 44rem;
+        height: 25rem;
+    }
+    #jopen {
+        width: 22rem;
+        height: 27rem;
+    }
+    #img_jopen_cont {
+        border-radius: 0 0 8rem 0;
+    }
+    #img_boxing_last {
+        width: 26rem;
+        height: 26rem;
+        border-radius: 4rem 1rem 1rem 1rem;
+    }
+    #our_club_text {
+        font-size: 1rem;
+        margin: 0rem 0 0rem 4rem;
+    }
+    #facilities_h1 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .menu-bar{
+        justify-content: flex-end;
+        flex-wrap: wrap-reverse;
+        flex-direction: column-reverse;
+    }
+    .menu-logo{
+        justify-content: flex-start;
+    }
+    .phone-search__conteinre{
+        flex-basis: 2rem;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+
+    }
+    .search{
+        max-width: 16rem;
+        height: 2rem;
+    }
+    .search-input, #h2, #class_text, #web_designer>p {
+        font-size: 0.8rem;
+    }
+    .Even {
+        width: 18rem;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .btn{
+        margin: -0.1rem 0 2rem 0;
+        font-size: 1rem;
+        width: 7rem;
+        height: 2.5rem;
+    }
+    .with__circle {
+        margin: -17rem -1.9rem 0 0;
+        width: 18rem;
+        height: 18rem;
+    }
+    .fight__club{
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    .classes {
+        width: 21rem;
+    }
+    .style_classes {
+        font-size: 1rem;
+    }
+    .image_partner {
+        width: 5rem;
+    }
+    .rectangel_text, #h1, #class_Name, #h1_name {
+        font-size: 1rem;
+    }
+    #h2{
+        margin: 0;
+    }
+    .profile_classes{
+        flex-wrap: wrap;
+    width: 70%;
+    }
+    .rectangel_with{
+        height: 13rem;
+        margin-top: 3rem;
+    }
+    .teakwondo{
+        order: 1;
+    }
+    #facilities_rectangel {
+        width: 26rem;
+        height: 16rem;
+    }
+    #text_facilities_cont{
+        flex-basis: content;
+    }
+    #facilities_h1 {
+        font-size: 1.2rem;
+    }
+    #our_club_text {
+        font-size: 1rem;
+        margin: 0rem 0 1rem 4rem;
+    }
+    .btn {
+        margin: -0.1rem 1rem 0.7rem 0;
+    }
+    #img_boxing_last{
+        width: 15rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+    #img_jopen_cont{
+        display: none;
+    }
+    #img_circle{
+        width: 8rem;
+        height: 8rem;
+    }
+    .img_Mr_sporer img, .img_Mr_Thompson img{
+        width: 8rem;
+    }
+    .img_Mrs_Batz img{
+        width: 15rem;
+    }
+    #text_prof{
+        font-size: .8rem;
+        letter-spacing: 0rem;
+    }
+    #profile_rectangel {
+        width: 12rem;
+        height: 13rem;
+        justify-content: flex-end;
+    }
+    #coach_imgBackg_conteiner{
+        margin-top: .5rem;
+    }
+    #icon_cont{
+        margin: -6rem 0.3rem 0.5rem 0;
+    }
+    #icon_more{
+        margin: 0 0.3rem 0.4rem 0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .fa-search {
+        font-size: medium;
+    }
+    .logo__fight_club {
+        max-width: 3rem;
+    }
+    ul, #img_vector_prof{
+        display: none;
+    }
+    .Even{
+        width: 15rem;
+        font-size: 1rem;
+    }
+    .fight__club{
+        font-size: 3rem;
+    }
+    .rectangel_text {
+        margin: -12rem 0 0 -3rem;
+        flex-basis: 5rem;
+    }
+    .rectangel_with {
+        width: 9rem;
+        height: 11rem;
+    }
+    .image_classes {
+        width: 7rem;
+        height: 5rem;
+    }
+    #coach_profile{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 40rem;
+    }
+    
+}
+
+ @media only screen and (max-width: 560px){ 
+    .phone-search__conteinre{
+        flex-basis: 4.3rem;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:.5rem;
+    }
+    .phone-number>p, .fa-phone{
+        font-size: .8rem;
+    }
+    .fight__muhammad__conteiner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .muhammadAli_conteiner{
+        align-items: center;
+    }
+    .fight__club{
+        opacity: 0.5;
+        backdrop-filter: blur(3px);
+        margin: 1rem 0 1rem;
+    }
+    .Even, .mu_ali{
+        backdrop-filter: blur(3px);
+
+    }
+    .with__circle{
+        margin: -14rem 0 3rem 0;
+        width: 15rem;
+        height: 15rem;
+    }
+    .classes {
+        width: 15rem;
+    }
+    .style_classes{
+        justify-content: center;
+        font-size: .8rem;
+    }
+    .classes-men-child-women{
+        display: flex;
+        justify-content: center;
+    }
+    .style_classes>i {
+        margin: 0 0.5rem 0 0.1rem;
+    }
+    .rectangle{
+        flex-wrap: wrap;
+    }
+    .rectangel_text{
+        margin: -3rem 9rem 0.4rem 0;
+    }
+    .image_partner{
+        width: 3.5rem;
+    }
+    #partner{
+        margin-top: 2rem;
+    }
+    .profile_classes{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .rectangel_with{
+        width: 7.9rem;
+    }
+    #facilities_h1{
+        font-size: .8rem;
+        margin: 0.5rem 0;
+    }
+    #our_club_text{
+        font-size: 0.7rem;
+        margin: 0rem 0 1rem 1rem;
+    }
+    #facilities_rectangel{
+        margin-bottom: 2rem;
+    }
+    #coach_profile{
+        height: 55rem;
+        margin-top: 3rem;
+        justify-content: flex-end;
+    }
+    #coach_text{
+        width: 1rem;
+        font-size: 1.6rem;
+    }
+    #prof{
+        margin: 0 1.5rem 5rem 0;
+    }
+    #input_cont> i{
+        font-size: 1.5rem;
+    }
+    #subscribe{
+        font-size: 1rem;
+    }
+    #input_cont> input{
+        width: 12rem;
+        font-size: .8rem;
+
+    }
+    #input_cont{
+        width: 17rem;
+        height: 2rem;
+
+    }
+    #web_designer>p{
+        font-size: .6rem;
+    }
+
+
+ }
